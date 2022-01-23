@@ -13,7 +13,6 @@ const People = () => {
   };
 
   const { data, status } = useQuery(['people', page], fetchPeople);
-  console.log(data);
   return (
     <div>
       <h2>People</h2>
